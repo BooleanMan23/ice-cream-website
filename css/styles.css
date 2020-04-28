@@ -1,0 +1,363 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    letter-spacing: 1px;
+    background-color: white !important;
+    margin-bottom: 0px;
+}
+
+.nav-link {
+    color: black;
+    display: block;
+    padding: .5rem 1rem;
+   transition: ease-in 0.3s;
+}
+
+.nav-link:hover {
+    color: #EA8479 !important;
+}
+
+
+.navbar-left {
+    padding-left: 85px;
+}
+
+.navbar-left .nav-link{
+    margin-left: 50px;
+}
+
+.navbar-right {
+    padding-right: 85px;
+}
+.navbar-right .nav-link{
+    margin-right: 50px;
+}
+
+
+
+.navbar-brand {
+ 
+    font-size: 1.8rem !important;
+    letter-spacing: 3px;
+    color: black;
+    padding-bottom: 100px;
+    text-decoration: none;
+    transition: ease-in 0.2s;
+}
+
+.navbar-brand:hover{
+    color: #EA8479 !important;
+}
+
+.navbar {
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    background-color: white;
+}
+
+
+
+.navbar-toggler {
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    outline: none !important;
+
+}
+
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(234, 132, 121, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; 
+} 
+
+@media only screen and (max-width: 768px) {
+    .nav-link{
+        border-bottom: 0.3px solid #b5b5b5;
+    }
+
+    .navbar-left {
+        text-align: center;
+        padding-left: 0px !important;
+    }
+    
+    .navbar-right {
+        text-align: center;
+        padding-right: 0px !important;
+    }
+
+    .navbar-right .nav-link{
+        margin-right: 0px !important;
+    }
+
+    .navbar-left .nav-link{
+        margin-left: 0px !important;
+    }
+
+  
+    
+  }
+
+
+  
+@media only screen and (min-width: 768px) and (max-width: 1195px) {
+
+    
+    .navbar-left {
+        padding-left: 0px !important;
+    }
+    
+    .navbar-right {
+        padding-right: 0px !important;
+    }
+
+    .navbar-right .nav-link{
+        margin-right: 0px !important;
+    }
+
+    .navbar-left .nav-link{
+        margin-left: 0px !important;
+    }
+    
+  }
+
+  /* feature */
+
+
+
+ .title {
+     width: 100%;
+     height: 30%;
+     
+ }
+
+
+ .title-image {
+     width: 100%;
+     height: auto;
+     
+ }
+
+ #flavour-section{
+     padding-left: 15%;
+     padding-right: 15%;
+     padding-bottom: 2%;
+     padding-top: 3%;
+     background-color: white;
+     text-align: center;
+     font-weight: 600;
+     font-size: 2.3rem;
+     color: black !important;
+     transition: ease-in 0.3s;
+ }
+
+ .flavour-caption{
+     margin-bottom: 2%;
+ }
+
+ .flavour-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ }
+
+ .figure-caption {
+    margin-top: 5% !important;
+    font-weight: 500 !important;
+    font-size: 1.2rem !important;
+    color: black !important;
+}
+
+.figure{
+    margin-top: 2.5% !important;
+}
+
+
+#testimonial-section{
+    padding-top: 2%;
+    text-align: center;
+    background-color: #EA8479;
+    color: #e9e2d3;
+    padding-bottom: 2%;
+}
+
+h2{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+
+em {
+    font-style: italic;
+    margin-left: 1% !important;
+}
+#testimonials h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+  
+}
+.h2, h2 {
+    font-size: 2rem;
+    margin-bottom: 1% !important;
+}
+
+.testimonial-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+/* .powered-by{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.{
+    width: 15%;
+    margin: 20px 20px 50px;
+} */
+
+.underline {
+    border-bottom: white 2px solid;
+}
+
+.testimonial-caption {
+    color: white;
+}
+
+.testimonial-text{
+    font-size: 1.3rem;
+}
+
+#find-us-section{
+    padding-top: 1%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+  }
+
+
+.find-us-caption{
+    margin-top: 1%;
+    margin-bottom: 1% !important;
+}
+
+.card-img-top{
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px !important;
+    width: 150px !important;
+    
+}
+
+.order-button {
+    background-color: white !important;
+    border-color: rgba(0,0,0, 0.25) !important;
+    color: black !important;
+    transition: ease-in 0.3s !important;
+}
+
+.order-button:hover{
+    color: white !important;
+    border-color: white !important;
+    background-color: #EA8479 !important;
+}
+
+.card-row {
+    margin-right: 150px !important;
+    margin-left: 150px !important;
+}
+
+.card{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 3%;
+}
+
+.card-header {
+    background-color: white !important;
+}
+
+
+#contact-us-section{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    background-color: #EA8479;
+    text-align: center;
+}
+
+
+
+
+form{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-color: rgba(0,0,0, 0.25) !important;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 500px;
+    transition: ease-in 0.3s;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.button-submit{
+  width: auto;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+#footer p{
+    padding-top: 5px;
+}
+
+.fa-instagram:hover{
+    color: #EA8479;
+    transition: ease-in 0.3s;
+}
+  
+.fa-facebook:hover{
+    color: #EA8479;
+    transition: ease-in 0.3s;
+}
+
+.fa-twitter:hover{
+    color: #EA8479;
+    transition: ease-in 0.3s;
+}
+
+.fa-envelope:hover{
+    color: #EA8479;
+    transition: ease-in 0.3s;
+}

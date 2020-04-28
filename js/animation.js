@@ -1,0 +1,25 @@
+
+
+
+alert("connected")
+var navbar = $(".navbar");
+$(".hamburger-button").click(function (e) { 
+    $(".hamburger-button").toggleClass("custom-toggler");
+    $("body").css("padding-top", "30px");
+    
+});
+
+var position = $(window).scrollTop(); 
+
+// should start at 0
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if(scroll > position) {
+      $(".navbar").fadeOut();
+    } else {
+       $(".navbar").fadeIn();
+    }
+    position = scroll;
+});
+
